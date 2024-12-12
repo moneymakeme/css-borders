@@ -1,0 +1,46 @@
+.h1{
+    border-style: dashed;
+}
+.h2{
+    border-style: dotted;
+}
+.h3{
+    border-style: double;
+}
+.h4{
+    border-style: groove;
+}
+.h5{
+    border-style:solid;
+}
+.h6{
+    border-style: inset;
+}
+.h7{
+    border-style: ridge;
+}
+.h8{
+    border-style: outset;
+}
+.h9{
+    border-style:solid dashed double dotted;
+}
+.h10{
+    border-top-style: dotted;
+    border-left-style: solid;
+    border-bottom-style: dashed;
+    border-right-style: double;
+}
+#h1{
+    border-style: dashed solid;
+    border-width: 8px 7px;
+    border-color: aqua goldenrod lawngreen purple;
+    border-radius: 10px;
+}
+/*
+this below three type of borders not givens visuals because
+ this means to 0 effect of our bordes styles
+inherit
+initial
+none
+*/
